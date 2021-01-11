@@ -12,7 +12,7 @@ SIM_OBJ = obj/sim_pipe.o
 TESTCASES = src/testcase1 src/testcase2 src/testcase3 src/testcase4 src/testcase5 src/testcase6
 
 #################################
-
+# adding tmp
 # default rule
 all:
 	$(TESTCASES)
