@@ -39,7 +39,7 @@ int main(int argc, char **argv){
 	cout << "First 8 clock cycles: inspecting the registers at each clock cycle..." << endl;
 	cout << "======================================================================" << endl << endl;
 
-	for (i=0; i<8/sf_ECE_464; i++){
+	for (i=0; i<8; i++){
 		cout << "CLOCK CYCLE #" << dec << i << endl;
 		mips->run(1);
 		mips->print_registers();
